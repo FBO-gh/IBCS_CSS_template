@@ -1,0 +1,16 @@
+:root{
+  --font-main: Arial, sans-serif;
+
+  --padding-main: 1.5em;
+  --border-width: 0.1em;
+}
+
+
+/*
+--color-black: #000000;
+--color-dark-gray: #404040;
+--color-light-gray: #a6a6a6;
+--color-green: #8cb400;
+--color-red: #ff0000;
+--color-blue: #0064ff;
+--color-blue-green: #008E96;
