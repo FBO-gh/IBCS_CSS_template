@@ -1,2 +1,239 @@
-/* here some definitions for column charts */
+/* here some definitions for column charts (including waterfall) */
+
+.chart-column-text {
+  text-align: center;
+  vertical-align: middle;
+  width: 2em;
+}
+
+.chart-column-text {
+  margin-bottom: 0.3em;
+}
+
+.chart-column-label {
+  margin-top: 0.3em;
+  width: 3em;
+}
+
+.chart-column-axis {
+  border-top: 0.1em;
+}
+
+.chart-column-legend {
+  margin-left: 0.3em;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.chart-column-waterfall-date {
+  width: 3.5em;
+  margin-top: 0.3em;
+}
+
+.chart-column-waterfall-text {
+  text-align: center;
+  vertical-align: middle;
+  width: 2.3em;
+}
+
+/* bar charts */
+
+.chart-bar-axis {
+  border-top: 0.1em;
+}
+
+.chart-bar-category {
+  text-align: right;
+  vertical-align: middle;
+  height: 1.5em;
+}
+
+.chart-bar-text {
+  text-align: center;
+  vertical-align: middle;
+  height: 1em;
+}
+
+.chart-bar-label {
+  text-align: left;
+  vertical-align: middle;
+  margin-left: 0.3em;
+}
+
+.chart-bar-legend {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line charts */
+
+.chart-line-label {
+  width: 3em;
+  margin-top: 0.3em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.chart-line-axis {
+  border-top: 0.1em;
+}
+
+.chart-line-left-legend {
+  margin-right: 0,3em;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.chart-line-right-legend {
+  margin-left: 0,3em;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.chart-line-text-top {
+  margin-bottom: 0,3em;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.chart-line-text-bottom {
+  margin-top: 0,3em;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* area charts */
+
+.chart-area-label {
+  width: 2.5em;
+  margin-top: 0.3em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.chart-area-axis {
+  border-top: 0.1em;
+}
+
+.chart-area-left-legend {
+  margin-right: 0,3em;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.chart-area-right-legend {
+  margin-left: 0,3em;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.chart-area-text-top {
+  margin-bottom: 0,3em;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.chart-area-text-bottom {
+  margin-top: 0,3em;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* horizontal variance charts */
+
+.chart-variance-h-label {
+  width: 3em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.chart-variance-h-axis {
+  border-top: 0.3em;
+}
+
+.chart-variance-h-text {
+  width: 2em;
+  margin-bottom: 0.3em;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.chart-variance-h-legend {
+  text-align: right;
+  vertical-align: middle;
+  margin-left: 0.3em;
+}
+
+.chart-variance-h-waterfall-year {
+  width: 4em;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 0.3em;
+}
+
+.chart-variance-h-waterfall-month {
+  width: 3.5em;
+  text-align: center;
+  vertical-align: top;
+  margin-top: 0.3em;
+}
+
+.chart-variance-h-waterfall-axis {
+  border-top: 0.1em;
+}
+
+.chart-variance-h-waterfall-year-text {
+  width: 2.6em;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.chart-variance-h-waterfall-month-text-top {
+  width: 2.3em;
+  margin-bottom: 0.3em;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+.chart-variance-h-waterfall-month-text-bottom {
+  width: 2.3em;
+  margin-top: 0.3em;
+  vertical-align: top;
+  text-align: center;
+}
+
+/* vertical variance charts */
+
+.chart-variance-v-label {
+  width: 1.5em;
+  margin-right: 0.3em;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.chart-variance-v-axis {
+  border-top: 0.3em;
+}
+
+.chart-variance-v-text-left {
+  width: 1em;
+  margin-right: 0.3em;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.chart-variance-v-text-right {
+  width: 1em;
+  margin-left: 0.3em;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.chart-variance-v-legend {
+  text-align: center;
+  vertical-align: bottom;
+  margin-bottom: 0.3em;
+}
 
