@@ -1,0 +1,47 @@
+:root {
+  --color-black: #000000;
+  --color-dark-gray: #404040;
+  --color-hatched: #404040;
+  --color-outlined: #404040;
+  --color-light-gray: #a6a6a6;
+  --color-green: #8cb400;
+  --color-red: #ff0000;
+  --color-blue: #0064ff;
+  --color-blue-green: #008E96;
+}
+
+.text {
+  color: var(--color-black);
+}
+
+.data {
+  color: var(--color-dark-gray);
+}
+
+.data-previous {
+  color: var(--color-light-gray);
+}
+
+.data-expected {
+  color: var(--color-hatched);
+}
+
+.data-fictitious {
+  color: var(--color-outlined);
+}
+
+.variance-good {
+  color: var(--color-green);
+}
+
+.variance-good-color-deficiency {
+  color: var(--color-blue-green);
+}
+
+.variance-bad {
+  color: var(--color-red);
+}
+
+.variance-neutral {
+  color: var(--color-blue);
+}

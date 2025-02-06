@@ -1,16 +1,135 @@
 :root{
-  --font-main: Arial, sans-serif;
+  --font-family: Arial, sans-serif;
+  --base-font-size-report: 10pt;
+  --base-font-size-slide: 12pt;
+  --base-font-size-dashboard: 10pt;
+  --base-font-size-message: 1.2em;
+  --base-font-size-footnotes: 0.8em;
 
-  --padding-main: 1.5em;
-  --border-width: 0.1em;
+  /*not used the page size*/
+  --page-size-report-width: 210mm;
+  --page-size-report-height: 297mm;
+
+  --page-size-dashboard-width: 1920px;
+  --page-size-dashboard-height: 1080px;
+
+  --page-size-slide-width: 1920px;
+  --page-size-slide-height: 1080px;
+  /*end of not used*/
+
+  /* inner and outer not used */
+  --margin-inner-report: 15mm;
+  --margin-outer-report: 20mm;
+  --margin-top-report: 15mm;
+  --margin-bottom-report: 12mm;
+  
+  --margin-inner-slide: 3mm;
+  --margin-outer-slide: 3mm;
+  --margin-top-slide: 2mm;
+  --margin-bottom-slide: 2mm;
+
+  --margin-inner-dashboard: 3mm;
+  --margin-outer-dashboard: 3mm;
+  --margin-top-dashboard: 2mm;
+  --margin-bottom-dashboard: 2mm;
+
+  --height-message-report: 15mm;
+  --height-message-slide: 15mm;
+
+  --height-title-report: 15mm;
+  --height-title-slide: 15mm;
+  --height-title-dashboard: 15mm;
+
+  --grid-start-report: 50mm;
+  --grid-start-slide: 36mm;
+  --grid-start-dashboard: 36mm;
+
+  --font-size-report: 10pt;
+  --font-size-slide: 12pt;
+  --font-size-dashboard: 10pt;
+  /* missing: orientation, grid */
 }
 
+/* Report layout */
+body.report {
+  width: var(--page-size-report-width);
+  height: var(--page-size-report-height);
+  margin-top: var(--margin-top-report);
+  margin-bottom: var(--margin-bottom-report);
+  /*
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  */
+  gap: var(--grid-row-gap-report) var(--grid-column-gap-report);
+  font-size: var(--font-size-report);
+  font-family: var(--font-family);
+}
 
-/*
---color-black: #000000;
---color-dark-gray: #404040;
---color-light-gray: #a6a6a6;
---color-green: #8cb400;
---color-red: #ff0000;
---color-blue: #0064ff;
---color-blue-green: #008E96;
+/* Slide layout */
+body.slide {
+  width: var(--page-size-slide-width);
+  height: var(--page-size-slide-height);
+  margin-top: var(--margin-top-slide);
+  margin-bottom: var(--margin-bottom-slide);
+  /*
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  */
+  gap: var(--grid-row-gap-slide) var(--grid-column-gap-slide);
+  font-size: var(--font-size-slide);
+  font-family: var(--font-family);
+}
+
+/* Dashboard layout */
+body.dashboard {
+  width: var(--page-size-dashboard-width);
+  height: var(--page-size-dashboard-height);
+  margin-top: var(--margin-top-dashboard);
+  margin-bottom: var(--margin-bottom-dashboard);
+  /*
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  */
+  gap: var(--grid-row-gap-slide) var(--grid-column-gap-slide);
+  font-size: var(--font-size-dashboard);
+  font-family: var(--font-family);
+}
+
+.message {
+  font-size: var(--base-font-size-message);
+  text-transform: capitalize;
+}
+
+.footnote {
+  font-size: var(--base-font-size-footnotes);
+  text-transform: capitalize;
+}
+
+.legend-top {
+  text-align: center;
+  vertical-align: bottom;
+  margin: 3em;
+}
+
+.legend-bottom {
+  text-align: center;
+  vertical-align: top;
+  margin: 3em;
+}
+
+.legend-left {
+  text-align: right;
+  vertical-align: middle;
+  margin: 3em;
+}
+
+.legend-right {
+  text-align: left;
+  vertical-align: middle;
+  margin: 3em;
+}
+
+/* page 19, 20 has to be enforced form the front side, not from backend */
