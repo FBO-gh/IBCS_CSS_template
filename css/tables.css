@@ -1,0 +1,79 @@
+@import "colors.css";
+
+/* row informations */
+
+.row-header-separator {
+  border-top: 0.1em;
+}
+
+.row-header-separator-scenario {
+  border-top: 0.3em;
+}
+
+.row-header-separator-nested {
+  border-top: 0.1em;
+}
+
+.row {
+  height: 1.5em;
+}
+
+.row-separator {
+  border-top: 0.03em dotted;
+}
+
+.row-sub {
+  height: 1em;
+  font-size: 0.8em;
+}
+
+.row-separator-result {
+  color: var(--color-dark-gray);
+  border-top: 0.1em;
+}
+
+.row-result {
+  height: 1.5em;
+  font-weight: bold;
+}
+
+.row-empty {
+  height: 0.7em;
+}
+
+.row-result-share {
+  font-size: 0.8em;
+  font-style: italic;
+  height: 1em;
+}
+
+/* column information */
+
+.column-header-separator {
+  border-top: 0.1em;
+}
+
+.column-row-header {
+  margin-right: 0.7em;
+}
+
+.column {
+  width: 3.5em;
+  text-align: right;
+  margin-right: 0.3em;
+}
+
+.column-sub {
+  font-size: 0.8em;
+  width: 3em;
+}
+
+.column-result {
+  margin-right: 0.7em;
+}
+
+.column-share {
+  font-size: 0.8em;
+  font-style: italic;
+  width: 3em;
+}
