@@ -1,0 +1,105 @@
+@import "colors.css";
+
+:root {
+  --assisting-lines-thickness: 0.03em;
+  --data-series-thickness: 0.1em;
+  --standard-axes-thickness: 0.1em;
+  --semantic-axes-thickness: 0.3em;
+  --scenarios-separator-lines-thickness: 0.1em;
+  --index-average-lines-thickness: 0.1em;
+  --waterfall-connection-lines-thickness: 0.03em;
+  --borders-bars-columns-thickness: 0.1em;
+  --borders-highlighting-ellipses-thickness: 0.1em;
+  --standard-column-header-thickness: 0.1em;
+  --semantic-column-header-thickness: 0.3em;
+  --standard-row-separator-thickness: 0.03em;
+  --total-separator-thickness: 0.1em;
+}
+
+.designation-tying {
+  font-size: var(--assisting-lines-thickness);
+  color: var(--color-black);
+}
+
+.time-series {
+  font-size: var(--data-series-thickness);
+}
+
+.axes-standard {
+  font-size: var(--semantic-axes-thickness);
+  color: var(--color-black);
+}
+
+.axes-semantic {
+  font-size: var(--semantic-axes-thickness);
+  color: currentColor;
+}
+
+.scenario-separator {
+  font-size: var(--scenarios-separator-lines-thickness);
+  color: var(--color-light-gray);
+}
+
+.index-line {
+  font-size: var(--index-average-lines-thickness);
+  color: var(--color-black);
+}
+
+.average-line {
+  font-size: var(--index-average-lines-thickness);
+  color: var(--color-black);
+}
+
+.waterfall-connections {
+  font-size: var(--waterfall-connection-lines-thickness);
+  color: var(--color-black);
+}
+
+.border-bar {
+  font-size: var(--borders-bars-columns-thickness);
+  color: var(--color-dark-gray);
+}
+
+.border-columns {
+  font-size: var(--borders-bars-columns-thickness);
+  color: var(--color-dark-gray);
+}
+
+.border-pinheads {
+  font-size: var(--borders-bars-columns-thickness);
+  color: var(--color-dark-gray);
+}
+
+.border-linemarkers {
+  font-size: var(--borders-bars-columns-thickness);
+  color: var(--color-dark-gray);
+}
+
+
+.border-highlighting-ellipses {
+  font-size: var(--borders-highlighting-ellipses-thickness);
+  color: var(--color-blue);
+}
+
+.column-header-separator {
+  font-size: var(--standard-column-header-thickness);
+  color: var(--color-dark-gray);
+}
+
+.column-header-scenario {
+  font-size: var(--semantic-column-header-thickness);
+  color: currentColor;
+}
+
+.row-separator {
+  font-size: var(--standard-row-separator-thickness);
+  color: var(--color-light-gray);
+  border-top: 1px dotted; /* double check this */
+}
+
+.row-separator-total {
+  font-size: var(--total-separator-thickness);
+  color: var(--color-dark-gray);
+}
+
+/* histogram style implementation depends on how the actual histogram is implemented. same goes for dates/*
